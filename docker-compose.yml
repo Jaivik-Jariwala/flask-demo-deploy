@@ -6,4 +6,4 @@ services:
       - "8000:8000"
     environment:
       - FLASK_ENV=development
-      - DATABASE_URL=sqlite:///test.db
+      - DATABASE_URL=this-is-my-dummy-database-db-string
